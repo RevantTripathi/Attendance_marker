@@ -8,7 +8,7 @@ function Regi() {
             <div className='regi'>
 
                 <div className='wl_text'>
-                    <h1>Welcome Back</h1>
+                    <h1>Sign Up</h1>
                 </div>
                 <div className='r1'>
                     <div className='sec3'>
@@ -35,9 +35,9 @@ function Regi() {
                         <input placeholder='Set Password' type='password'></input>
                     </div>
                 </div>
-                <div className='r1'>
-                    <button>Login</button>
-                    <button>Register</button>
+                <div className='r2'>
+                    <button className='b1'>Login</button>
+                    <button className='b2'>Register</button>
                 </div>
 
             </div>

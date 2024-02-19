@@ -21,10 +21,8 @@
     display: flex;
     justify-content: start;
     flex-direction: column;
-
-
-    width: 70%;
-    margin: 0% 0% 0% 15%;
+    width: 90%;
+    margin: 13% 0% 0% 22%;
 
 }
 
@@ -32,8 +30,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
-    margin: 10% 0% 0% 15%;
+    width: 90%;
+    margin: 10% 0% 0% 22%;
 }
 
 input {
@@ -42,12 +40,11 @@ input {
     padding: 0 20px;
     line-height: 40px;
     border-radius: 10px;
-    border: none;
-    border-bottom: 3px solid black;
-    background-color: rgb(232, 229, 229);
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
 }
 
-.wl_text {
-    margin-top: 15%;
-    margin-bottom: 15%;
+.wl_text1 {
+    margin-top: 10%;
+    margin-bottom: 0%;
 }

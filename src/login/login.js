@@ -6,7 +6,7 @@ function Login() {
 
         <div className='login_div'>
             <div className='login'>
-                <div className='wl_text'>
+                <div className='wl_text1'>
                     <h1>Welcome Back</h1>
                 </div>
                 <div className='sec'>

@@ -6,9 +6,9 @@ import Regi from './regi/regi.js';
 function App() {
   return (
     <div className="App">
-       
-       {/* <Login/> */}
-       <Regi/>
+
+      <Login />
+      {/* <Regi />  */}
     </div>
   );
 }
