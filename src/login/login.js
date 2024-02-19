@@ -17,6 +17,8 @@ function Login() {
                     {/* <label>Password</label> */}
                     <input placeholder='Password' type='password'></input>
                 </div>
+                <button className='b'>Login</button>
+                <button className='bb'>Don't have a account? Register</button>
             </div>
         </div>
 
