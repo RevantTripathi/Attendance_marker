@@ -1,9 +1,15 @@
 .time {
     background-color: black;
     color: white;
-    width: 30%;
+    width: 20%;
     height: 15vh;
-    margin: 10% 35% 0% 35%;
-    padding: 1% 1% 1% 1%;
+    margin: 10% 35% 10% 40%;
+    padding: 2% 0% 0% 0%;
     border-radius: 10px;
+    font-size: 1em;
+    font-family: "Monaco", monospace;
+}
+
+h1 {
+    margin: 0%;
 }

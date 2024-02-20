@@ -16,6 +16,7 @@ function Home(){
         <div className='home'>
             <div className='time'>
                 <h1>{date.toLocaleTimeString()}</h1>
+                <h1>{date.toLocaleDateString()}</h1>
             </div>
 
         </div>
