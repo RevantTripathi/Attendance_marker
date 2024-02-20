@@ -20,7 +20,7 @@
     /* justify-content: start; */
     flex-direction: column;
     width: 100%;
-    margin: 13% 0% 0% 20%;
+    margin: 13% 0% 0% 11%;
 }
 
 .sec2 {
@@ -28,18 +28,18 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin: 5% 0% 0% 20%;
+    margin: 5% 0% 0% 11%;
 }
 
-.I1{
+.I1 {
 
     outline: none;
     font-size: 2em;
-    width: 50%;
+    width: 70%;
     padding: 0 20px;
     line-height: 40px;
     border-radius: 5px;
-    border: 1px solid rgb(116, 111, 111); 
+    border: 1px solid rgb(116, 111, 111);
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(255, 255, 255);
 
@@ -54,8 +54,8 @@
 }
 
 .b {
-    width: 60%;
-    margin: 12% 19% 0% 19%;
+    width: 80%;
+    margin: 12% 19% 0% 11%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -88,6 +88,6 @@ p {
     font-size: 0.9em;
 }
 
-.r{
+.r {
     color: rgb(5, 5, 245);
 }
