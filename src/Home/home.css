@@ -3,7 +3,7 @@
     color: white;
     width: 20%;
     height: 15vh;
-    margin: 10% 35% 10% 40%;
+    margin: 5% 35% 10% 40%;
     padding: 2% 0% 0% 0%;
     border-radius: 10px;
     font-size: 1em;
@@ -12,4 +12,29 @@
 
 h1 {
     margin: 0%;
+}
+
+.icon {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.icon2 {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile {
+    background-color: rgb(59, 58, 58);
+    padding: 4%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    margin: 30%;
+    text-align: left;
+    width: 150%;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
 }
