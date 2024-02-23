@@ -8,15 +8,13 @@ function Login() {
             <div className='login'>
                 <div className='wl_text1'>
                     <h1>Welcome Back</h1>
-                    <p>Glad to see you again</p>
-                    <p>Login to your account bellow</p>
+                    <p>Glad to see you again<br/>
+                    Login to your account bellow</p>
                 </div>
                 <div className='sec'>
-                    {/* <label>Email</label> */}
                     <input className="I1" placeholder='Email' type='text' required></input>
                 </div>
                 <div className='sec2'>
-                    {/* <label>Password</label> */}
                     <input className="I1" placeholder='Password' type='password' required></input>
                 </div>
                 <button className='b'>Login</button>

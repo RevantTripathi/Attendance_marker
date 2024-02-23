@@ -10,7 +10,7 @@ function Regi() {
                 <div className='wl_text'>
                     <h1>Sign Up</h1>
                 </div>
-                <div className='r1'>
+                <div className='r3'>
                     <div className='sec3'>
                         <input placeholder='First Name' type='text'></input>
                     </div>

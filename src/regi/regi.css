@@ -30,6 +30,7 @@ input {
     color: black;
     font-family: "Monaco", monospace;
 
+
 }
 
 .wl_text {
@@ -44,6 +45,15 @@ input {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 5%;
+    
+}
+
+.r3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 6%;
 }
 
 .r2 {
