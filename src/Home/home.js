@@ -3,7 +3,7 @@ import "./home.css"
 import Empty from "./empty.jpeg"
 
 
-function Home({ src, alt }) {
+function Home({ src, alt, name, deg, job }) {
     var [date, setDate] = useState(new Date());
 
     useEffect(() => {
@@ -14,25 +14,39 @@ function Home({ src, alt }) {
 
     });
     return (
-        <div className='home'>
+        <>
             <div className='profile'>
-                {src ? (
-                    <img className="icon" src={src} alt={alt} />
-                ) : (
-                    <img className="icon2" src={Empty} alt={alt} />
-                )}
-                <div className='profile_details'>
-                    <h2>Revant<br/>
-                    Front-end Developer</h2>
+                <div className='c1'>
+                    {src ? (
+                        <img className="icon" src={src} alt={alt} />
+                    ) : (
+                        <img className="icon2" src={Empty} alt={alt} />
+                    )}
+                    <div className='profile_details'>
+                        <h2>{name}<br />
+                            {deg}<br />
+                            {job}
+                        </h2>
+
+                    </div>
+                </div>
+                <div className='c2'>
+                    <div className='time'>
+                        <h1>{date.toLocaleTimeString()}</h1>
+                        <h1>{date.toLocaleDateString()}</h1>
+                    </div>
                 </div>
             </div>
 
-            <div className='time'>
-                <h1>{date.toLocaleTimeString()}</h1>
-                <h1>{date.toLocaleDateString()}</h1>
+            <div className='bt_sec'>
+                <button>Take Attendance</button>
+                <button>My Attendance Details</button>
+                <button>Leave Apply</button>
             </div>
 
-        </div>
+        </>
+
+
     )
 }
 

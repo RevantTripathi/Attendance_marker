@@ -11,7 +11,7 @@ function App() {
 
       {/* <Login /> 
        <Regi />   */}
-      <Home src={Avatar} alt="avatar" />
+      <Home src={Avatar} alt="avatar" name="Revant" deg="Full Stack Developer" job="Full-Time" />
     </div>
   );
 }
