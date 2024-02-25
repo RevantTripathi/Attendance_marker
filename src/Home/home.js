@@ -14,7 +14,7 @@ function Home({ src, alt, name, deg, job }) {
 
     });
     return (
-        <>
+        <div className='main'>
             <div className='profile'>
                 <div className='c1'>
                     {src ? (
@@ -39,12 +39,12 @@ function Home({ src, alt, name, deg, job }) {
             </div>
 
             <div className='bt_sec'>
-                <button>Take Attendance</button>
-                <button>My Attendance Details</button>
-                <button>Leave Apply</button>
+                <button style={{ backgroundColor: "#90CAF9" }}>Take Attendance</button>
+                <button style={{ backgroundColor: "#90CAF9" }}>My Attendance Details</button>
+                <button style={{ backgroundColor: "#90CAF9" }}>Leave Apply </button>
             </div>
 
-        </>
+        </div>
 
 
     )
