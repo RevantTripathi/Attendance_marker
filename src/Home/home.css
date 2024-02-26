@@ -1,7 +1,5 @@
 .main {
-
     height: 100%;
-
 }
 
 .time {
@@ -39,7 +37,7 @@ h1 {
     padding: 3%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid black;
 }
 
 h2 {
@@ -70,6 +68,6 @@ h2 {
 button {
     height: 20vh;
     width: 20%;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 1.5em;
 }
